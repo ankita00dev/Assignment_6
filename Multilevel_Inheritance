@@ -1,0 +1,35 @@
+class dog:
+    def __init__(self,name,age,coat_colour):
+        self.name = name 
+        self.age = age 
+        self.coat_colour = coat_colour
+
+    def description(self):
+        print("name of the dog : ",self.name)
+        print("age of the dog : ",self.age)
+
+    def get_info(self):
+        print("coat colour : ",self.coat_colour)
+
+class jackRussellTerrier(dog):
+    def __init__(self,name,age,coat_colour):
+        super().__init__(name,age,coat_colour)
+
+    def jack(self):
+        print("It's a british breed")
+
+    def russel(self):
+        print("Used for hunting ")
+
+class bulldog(dog):
+    def __init__(self,name,age,coat_colour):
+        super().__init__(name,age,coat_colour)
+
+    def bull_1(self):
+        print("It's a firendly breed")
+
+    def bull_2(self):
+        print("They are powerful")
+
+obj = bulldog("bark",3,"red")
+print(obj.description(),obj.get_info())
