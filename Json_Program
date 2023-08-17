@@ -1,0 +1,5 @@
+import json
+
+file = open("C:\\Users\\Ankita\\OneDrive\\Desktop\\Practise_Python\\Assignment5\\employee.json")
+data = json.load(file)
+print(data)
