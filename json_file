@@ -1,0 +1,45 @@
+{
+    "employee" : [
+        {
+            "name" : "austin",
+            "DOB" : "januray",
+            "height" : 5,
+            "city" : "mumbai",
+            "state" : "maharashtra" 
+        },
+        
+        {
+            "name" : "grace",
+            "DOB" : "february",
+            "height" : 6,
+            "city" : "panaji",
+            "state" : "goa" 
+        },
+        
+        {
+            "name" : "melon",
+            "DOB" : "march",
+            "height" : 7,
+            "city" : "jaipur",
+            "state" : "rajasthan" 
+        },
+        
+        {
+            "name" : "harry",
+            "DOB" : "5.5",
+            "height" : 5,
+            "city" : "kochi",
+            "state" : "kerla" 
+        },
+        
+        {
+            "name" : "sheldon",
+            "DOB" : "may",
+            "height" : 6.5,
+            "city" : "chennai",
+            "state" : "tamil nadu" 
+        }
+
+    ]
+}
+
